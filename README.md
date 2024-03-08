@@ -66,5 +66,21 @@ sudo docker ps
 Remove: 
 
 ```
-sudo docker rim <IMAGE ID>
+sudo docker rmi <IMAGE ID>
 ```
+
+Force Remove:
+
+```
+sudo docker rmi -f 34777eaca236
+```
+
+Explore an image:
+
+```
+sudo docker run -it --rm mydjangoapp /bin/bash
+```
+
+> -it: This flag allows you to interact with the container and provides a terminal.
+
+> --rm: This flag automatically removes the container when you exit, ensuring that it doesn't persist after exploration.
