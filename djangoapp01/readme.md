@@ -5,13 +5,13 @@ Assuming you created a folder for your project, `cd` to the folder and copy the 
 Then:
 
 ```
-sudo docker build -t mydjangoapp .
+sudo docker build -t dj2 .
 ```
 
 Run it:
 
 ```
-sudo docker build -t mydjangoapp .
+sudo docker run -p 8000:8000 dj2
 ```
 
 Open it:
